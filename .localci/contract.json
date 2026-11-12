@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "contract_type": "localci.application",
+  "status": "proposal",
+  "repository": "DantyDCook/WGU-C687-JYM1",
+  "source": {
+    "branch": "master",
+    "immutable_commit_required": true
+  },
+  "project_kind": "cpp-windows-project",
+  "test_profiles": [
+    "cpp-static-analysis",
+    "msvc-solution-build",
+    "cpp-unit-smoke",
+    "project-file-validation"
+  ],
+  "release": {
+    "requested_destination": "none"
+  },
+  "security": {
+    "central_policy_required": true,
+    "allow_app_defined_executables": false,
+    "allow_disable_required_gates": false,
+    "allow_unreviewed_publisher_updates": false
+  }
+}
